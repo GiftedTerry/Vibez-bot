@@ -1,9 +1,9 @@
 {
   "name": "KINGGIFTED-MD@1.0.0",
-  "description": "I am KINGGIFTED-MD Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : https://wa.me/2347039853320",
+  "logo": "https://telegra.ph/file/6de70e06e3aa80c280270.jpg",
   "keywords": ["whatsappbot", "kinggifted-md", "kinggifted Md bot", "KINGGIFTED-MD", "KinggiftedMdWhatsaooBot", "KINGGIFTEDWaBot","KINGGIFTEDMD","KINGGIFTED Md Whatsapp Bot","multi device"],
-  "success_url": "/KINNGIFTED/",
+  "success_url": "/Dockerfile/",
   "app_url": "/qr/",
   
   "env": {
