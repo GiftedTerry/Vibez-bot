@@ -16,7 +16,7 @@ const AliveSchema = new mongoose.Schema({
     type: String,
     unique: true,
     required: true,
-    default: 'Dockerfile'
+    default: 'Vibez_MD'
   },
   alive_text: {
     type: String,
