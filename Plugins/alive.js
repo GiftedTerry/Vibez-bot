@@ -97,7 +97,7 @@ const AliveSchema = new mongoose.Schema({
   filter: {
     type: Object,
     default: {
-      suhail_: 'true'
+      vibez_: 'true'
     }
   },
   afk: {
