@@ -1,15 +1,15 @@
 {
-  "name": "KINGGIFTED-MD@1.0.0",
+  "name": "Vibez-MD",
   "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : https://wa.me/2347039853320",
   "logo": "https://telegra.ph/file/6de70e06e3aa80c280270.jpg",
-  "keywords": ["whatsappbot", "kinggifted-md", "kinggifted Md bot", "KINGGIFTED-MD", "KinggiftedMdWhatsaooBot", "KINGGIFTEDWaBot","KINGGIFTEDMD","KINGGIFTED Md Whatsapp Bot","multi device"],
-  "success_url": "/Dockerfile/",
+  "keywords": ["whatsappbot", "Vibez-MD","multi device"],
+  "success_url": "/",
   "app_url": "/qr/",
   
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "KINGGIFTED-MD",
+      "value": "Vibez-MD",
       "required" :true
     },   
      
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "KINGGIFTED-MD"
+      "value": "Vibez-MD"
     }, 
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/758549f0de2219884f387.jpg,https://telegra.ph/file/9498496b010dfb5900b80.jpg,https://telegra.ph/file/59bf80efbb6e6576b5a52.jpg,https://telegra.ph/file/ee0e191363161e88e4743.jpg"
+      "value": ""
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -52,10 +52,10 @@
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
       "required" :false,    
-      "value": "3"
+      "value": "5"
     },  
     "AUTO_SAVE_STATUS": {
-      "description": " Auto save whatsapp status", 
+      "description": " Put true or flash to automatically save whatsapp status", 
       "required" :false,   
       "value": "false"
     }, 
@@ -125,15 +125,16 @@
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
       "value": "private"
+      "required": "true"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "KINGGIFTED-MD",
+      "value": "Vibez-MD",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "PRO TECH",
       "required": false 
     },
     "STACK": {
