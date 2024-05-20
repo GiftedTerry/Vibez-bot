@@ -27,7 +27,7 @@ const generateReactionCommand = (reactionName, reactionEmoji) => {
     reaction: reactionEmoji,
   }, async (originalMessage, zk, commandOptions) => {
     const { authorMessage, authorMsgReplied, reply, ms, msgReplied } = commandOptions;
-    const url = `https://api.waifu.pics/sfw/;
+    const url = `https://api.waifu.pics/sfw/${reactionName};
     try {
       const response = await axios.get(url);
       const imageUrl = response.data.url;
