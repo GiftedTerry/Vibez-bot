@@ -27,16 +27,17 @@ vibez({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandOptions)
   const date = moment().format('DD/MM/YYYY');
 
   let infoMsg = `**BOT INFORMATION**
-  • Prefix: ${s.PREFIX}
-  • Owner: ${s.OWNER_NAME}
-  • Mode: ${mode}
-  • Commands: ${cm.length}
-  • Date: ${date}
-  • Time: ${time}
-  • Memory: ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-  • Platform: ${os.platform()}
-  • Developer: PRO TECH
-  `;
+😎😎😎😎😎😎😎😎😎😎😎
+😎  *Prefix* : ${s.PREFIX}
+😎  *Owner* : ${s.OWNER_NAME}
+😎  *Mode* : ${mode}
+😎  *Commands* : ${cm.length}
+😎  *Date* : ${date}
+😎  *Time* : ${time}
+😎  *Memory* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+😎  *Platform* : ${os.platform()}
+😎  *Developer* : PRO TECH
+😎😎😎😎vibez😎😎😎😎😎 \n\n`;
 
   let menuMsg = `**Xup, ${authorName}!**
   **List of commands:**
