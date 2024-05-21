@@ -1,15 +1,15 @@
 
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
+const { zokou } = require(__dirname + "/../lib/vibez");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
-  const { ms, respond, prefix, authorName, mybotpic } = commandeOptions;
-  const { cm } = require(__dirname + "/../framework//zokou");
+vibez({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandOptions) => {
+  const { ms, respond, prefix, authorName, mybotpic } = commandOptions;
+  const { cm } = require(__dirname + "/../lib/vibez");
   let commands = {};
   let mode = "public";
 
@@ -27,7 +27,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
   const date = moment().format('DD/MM/YYYY');
 
   let infoMsg = `**BOT INFORMATION**
-  • Prefix: ${s.PREFIXE}
+  • Prefix: ${s.PREFIX}
   • Owner: ${s.OWNER_NAME}
   • Mode: ${mode}
   • Commands: ${cm.length}
@@ -35,10 +35,10 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
   • Time: ${time}
   • Memory: ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
   • Platform: ${os.platform()}
-  • Developer: Djalega++ & M๏𝓱keℽ D Lบffy
+  • Developer: PRO TECH
   `;
 
-  let menuMsg = `**Hello, ${authorName}!**
+  let menuMsg = `**Xup, ${authorName}!**
   **List of commands:**
   `;
 
@@ -55,7 +55,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
   menuMsg += `**How to use:**
   Insert ${prefix} followed by the command name.
-  **Powered by Zokou-MD**
+  **Powered by Vibez-MD**
   `;
 
   const link = mybotpic();
@@ -65,7 +65,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
       zk.sendMessage(dest, {
         video: { url: link },
         caption: infoMsg + menuMsg,
-        footer: "I am Zokou-MD, developed by Djalega++",
+        footer: "I am Vibez-MD, my creator is PRO TECH",
         gifPlayback: true
       }, { quoted: ms });
     } catch (e) {
@@ -77,7 +77,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
       zk.sendMessage(dest, {
         image: { url: link },
         caption: infoMsg + menuMsg,
-        footer: "I am Zokou-MD, developed by Djalega++"
+        footer: "I am Vibez-MD, developed by Terry"
       }, { quoted: ms });
     } catch (e) {
       console.log("Menu error: " + e);
