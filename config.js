@@ -19,10 +19,10 @@ global.allowJids = process.env.ALLOW_JID || 'null';
 global.blockJids = process.env.BLOCK_JID || 'null';
 global.DATABASE_URL = process.env.DATABASE_URL || '';
 global.timezone = (link unavailable) || process.env.TIME_ZONE || 'Africa/Lagos';
-global.github = process.env.GITHUB || '(link unavailable)';
-global.gurl = process.env.GURL || '(link unavailable)';
-global.website = process.env.GURL || '(link unavailable)';
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || '(link unavailable)';
+global.github = process.env.GITHUB || 'https://github.com/GiftedTerry/Vibez-MD';
+global.gurl = process.env.GURL || 'https://whatsapp.com/channel/0029Vafdaf14inouXFUHqz30';
+global.website = process.env.GURL || 'https://whatsapp.com/channel/0029Vafdaf14inouXFUHqz30';
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || 'https://telegra.ph/file/d72deaffcab4cb15c6921.jpg';
 global.caption = process.env.CAPTION || 'Vibez-MD';
 global.devs = '2349122128803'; // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '2349122128803';
@@ -52,7 +52,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || 'null,234xxxxxxxx';
 global.read_status_from = process.env.READ_STATUS_FROM || '2349122128803,234xxxxxxxx';
 
 // API and Session Settings
-global.api_smd = '(link unavailable)';
+global.api_smd = 'https://api-smd.onrender.com';
 global.scan = '';
 global.SESSION_ID = process.env.SESSION_ID || '';
 
