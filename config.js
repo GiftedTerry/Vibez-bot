@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "Vibez-MD"
 
 global.devs = "2347039853320" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2347039853320";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349122128803";
 
 
 
@@ -56,7 +56,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,234xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,234xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2347039853320,234xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2349122128803,234xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com" 
 global.scan = "";
@@ -67,7 +67,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "",
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
@@ -110,35 +110,8 @@ global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 global.rank = "updated"
 global.isMongodb = false; 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file); })
- 
-
-// ========================= [ Disables in V.1.2.8 ] ===============================\\  
-  //style : process.env.STYLE || "2",  // put '1' & "2" here to check bot styles
-  //readmessage:process.env.READ_MESSAGE|| "false",
-  //warncount: process.env.WARN_COUNT || 3,
-  //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
-  //disablepm: process.env.DISABLE_PM || "false",
-  //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-  //readcmds:process.env.READ_COMMANDS|| "false", 
-  //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
-  //read_status: process.env.AUTO_READ_STATUS || "false",
-  //save_status: process.env.AUTO_SAVE_STATUS || "false",
-  //aitts_Voice_Id : process.env.AITTS_ID || "37",
-  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
+   || "",
