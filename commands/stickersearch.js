@@ -6,7 +6,7 @@ const { registerCommand } = require("../lib/vibez");
 registerCommand({
   name: "stickersearch",
   category: "Search",
-  reaction: "🍁"
+  reaction: "🔎"
 }, async (destination, zk, commandOptions) => {
   const { reply, message, args, authorName } = commandOptions;
   if (!args[0]) {
@@ -22,7 +22,7 @@ registerCommand({
       const packName = authorName; // Replace with your sticker pack name
       const sticker = new Sticker(gifUrl, {
         pack: packName,
-        author: 'Zokou-MD',
+        author: 'Vibez-MD',
         type: StickerTypes.FULL,
         categories: ["🤩", "🎉"],
         id: "12345",
