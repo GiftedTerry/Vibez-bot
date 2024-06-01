@@ -2,7 +2,7 @@
    "name": "Vibez-md",
    "version": "1.0.0",
    "description": "",
-   "main": "vibez.js",
+   "main": "index.js",
    "type": "commonjs",
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Vibez-md|| node .",
@@ -76,7 +76,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "git@github.com:GiftedTerry/Vibez-MD.git"
+      "url": "git+github.com:GiftedTerry/Vibez-MD.git"
    },
    "bugs": {
       "url": "https://github.com/Vibez-MD/issues"
