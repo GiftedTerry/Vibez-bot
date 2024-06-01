@@ -2,6 +2,7 @@
 
 const { prefix } = require('../config');
 const { reply } = require('../functions');
+const { registerCommand } = require("../lib/vibez");
 
 module.exports = {
   name: 'alive',
