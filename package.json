@@ -86,7 +86,6 @@
      "node": "16.x"
    },
    "heroku-config": {
-  "GIT_USERNAME": "GiftedTerry",
-  "GIT_PASSWORD": "ByTerrywhite@13"
+  "GIT_AUTH_TOKEN": "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"
    }
 }
