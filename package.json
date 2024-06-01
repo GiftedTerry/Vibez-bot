@@ -6,7 +6,7 @@
    "type": "commonjs",
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Vibez-md|| node .",
-      "leo": "pm2 start . --deep-monitoring --attach --name Vibez-bot || node .",
+      "vibez": "pm2 start . --deep-monitoring --attach --name Vibez-bot || node .",
       "start": "pm2 start . --attach --name Vibez",
       "stop": "pm2 stop Vibez",
       "heroku-postbuild": "git clone https://github.com/GiftedTerry/Vibez-MD.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
@@ -81,5 +81,8 @@
    "bugs": {
       "url": "https://github.com/Vibez-MD/issues"
    },
-   "homepage": "https://github.com/GiftedTerry/Vibez-MD#readme"
+   "homepage": "https://github.com/GiftedTerry/Vibez-MD#readme",
+   "engines": {
+     "node": "16.x"
    }
+}
