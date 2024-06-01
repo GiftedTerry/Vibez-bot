@@ -84,5 +84,9 @@
    "homepage": "https://github.com/GiftedTerry/Vibez-MD#readme",
    "engines": {
      "node": "16.x"
+   },
+   "heroku-config": {
+  "GIT_USERNAME": "GiftedTerry",
+  "GIT_PASSWORD": "ByTerrywhite@13"
    }
 }
