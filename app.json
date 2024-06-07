@@ -108,5 +108,52 @@
       "value": "",
       "required" :false
     },
-    "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from (link unavailable)
+     "ELEVENLAB_API_KEY": {
+      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from (link unavailable) ",
+      "value": "",
+      "required" :false
+    },
+    "REMOVE_BG_KEY": {
+      "description": "put your REMOVE BG KEY here.Get it from (link unavailable) ",
+      "value": "",
+      "required" :false
+    },
+    "MODE": {
+      "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+      "value": "private",
+      "required": "true"
+    },
+    "PACK_NAME": {
+      "description": "Put Sticker Pack_Name.",
+      "value": "Vibez-MD",
+      "required": false
+    },
+    "PACK_AUTHER": {
+      "description": "Put Sticker Author_Name.",
+      "value": "PRO TECH",
+      "required": false
+    },
+    "STACK": {
+      "description": "STACK NAME ",
+      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
+      "required": false
+    },
+    "SUDO": {
+      "description": "The phone numbers of the users who you want to be supersudo for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+      "value": "2349122128803"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:basic"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "(link unavailable)"
+    },
+    {
+      "url": "(link unavailable)"
+    }
+  ]
+}
