@@ -1,7 +1,7 @@
 {
   "name": "Vibez-MD",
-  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : (link unavailable)",
-  "logo": "(link unavailable)",
+  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : https://wa.me/2349122128803",
+  "logo": "https://telegra.ph/file/6de70e06e3aa80c280270.jpg",
   "keywords": ["whatsappbot", "Vibez-MD","multi device"],
   "success_url": "/",
   "app_url": "/qr/",
@@ -67,7 +67,7 @@
       "required" :true
     },
     "WAPRESENCE": {
-      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording'(for recording) | 'paused' ",
       "required" :false,
       "value": "unavailable"
     },
@@ -104,17 +104,17 @@
       "value": ""
     },
     "OPENAI_API_KEY": {
-      "description": "put your OPENAI api key here.Get it from (link unavailable) ",
+      "description": "put your OPENAI api key here.Get it from https://beta.openai.com ",
       "value": "",
       "required" :false
     },
      "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from (link unavailable) ",
+      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from  ",
       "value": "",
       "required" :false
     },
     "REMOVE_BG_KEY": {
-      "description": "put your REMOVE BG KEY here.Get it from (link unavailable) ",
+      "description": "put your REMOVE BG KEY here.Get it from https://removeBg.com ",
       "value": "",
       "required" :false
     },
