@@ -1,24 +1,21 @@
 {
   "name": "Vibez-MD",
-  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : https://wa.me/2347039853320",
-  "logo": "https://telegra.ph/file/6de70e06e3aa80c280270.jpg",
+  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : (link unavailable)",
+  "logo": "(link unavailable)",
   "keywords": ["whatsappbot", "Vibez-MD","multi device"],
   "success_url": "/",
   "app_url": "/qr/",
-  
   "env": {
     "OWNER_NAME": {
-      "description": "Name for Bot Owner",    
+      "description": "Name for Bot Owner",
       "value": "Vibez-MD",
       "required" :true
-    },   
-     
+    },
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
       "value": "true",
       "required" :false
     },
-     
     "GOODBYE": {
       "description": "put 'false' or 'true' to enable & disable GOODBYE ",
       "value": "false",
@@ -26,49 +23,49 @@
     },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
-      "required" :false,    
+      "required" :false,
       "value": "Vibez-MD"
-    }, 
+    },
     "USER_IMAGES": {
       "description": "Image for bot",
-      "required" :false,    
+      "required" :false,
       "value": ""
-    }, 
+    },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
-      "required" :false,    
+      "required" :false,
       "value": "Africa/Lagos"
-    },  
+    },
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
-      "required" :false,    
+      "required" :false,
       "value": "false"
-    },     
+    },
     "READ_COMMAND": {
       "description": " Read bot cmds",
-      "required" :false,    
+      "required" :false,
       "value": "false"
     },
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
-      "required" :false,    
+      "required" :false,
       "value": "5"
-    },  
+    },
     "AUTO_SAVE_STATUS": {
-      "description": " Put true or flash to automatically save whatsapp status", 
-      "required" :false,   
+      "description": " Put true or flash to automatically save whatsapp status",
+      "required" :false,
       "value": "false"
-    }, 
+    },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
       "value": "",
-      "required" :true 
-    },   
+      "required" :true
+    },
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
       "value": "",
-    "required" :true
-    }, 
+      "required" :true
+    },
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
@@ -78,7 +75,7 @@
       "description": "Fill the value true if you want bot view your Statuses.",
       "required" :false,
       "value": "true"
-    }, 
+    },
     "MSGS_IN_LOG": {
       "description": "Fill the value -true- if you want to see Messages in logs.",
       "required" :false,
@@ -100,52 +97,16 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2347039853320"
+      "value": "2349122128803"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
       "value": ""
-  
     },
     "OPENAI_API_KEY": {
-      "description": "put your OPENAI api key here.Get it from beta.openai.com ",
+      "description": "put your OPENAI api key here.Get it from (link unavailable) ",
       "value": "",
       "required" :false
-    }, 
+    },
     "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
-      "value": "",
-      "required" :false
-    }, 
-    "REMOVE_BG_KEY": {
-      "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
-      "value": "",
-      "required" :false
-    },
-    "MODE": {
-      "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
-      "required": "true"
-    },
-    "PACK_NAME": {
-      "description": "Put Sticker Pack_Name.",
-      "value": "Vibez-MD",
-      "required": false 
-    },
-    "PACK_AUTHER": {
-      "description": "Put Sticker Author_Name.",
-      "value": "PRO TECH",
-      "required": false 
-    },
-    "STACK": {
-      "description": "STACK NAME ",
-      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
-      "required": false 
-    }
-  }, 
-  "addons": [{ "plan": "heroku-postgresql:basic" }],
-  "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
-    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
-  ]
-}
+      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from (link unavailable)
