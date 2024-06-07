@@ -109,7 +109,7 @@
       "required" :false
     },
      "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from  ",
+      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
       "value": "",
       "required" :false
     },
@@ -150,10 +150,10 @@
   ],
   "buildpacks": [
     {
-      "url": "(link unavailable)"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
     },
     {
-      "url": "(link unavailable)"
+      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
     }
   ]
 }
