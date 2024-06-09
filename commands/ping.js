@@ -1,15 +1,14 @@
-// commands/ping.js
-
+const { registerCommand } = require('../lib/Vibez');
 const { prefix } = require('../config');
 const { reply } = require('../functions');
 
-module.exports = {
+registerCommand({
   name: 'ping',
+  categorie: 'General',
+  reaction: '⚡',
   description: 'Check the bot\'s ping',
+  usage: `${prefix}ping`,
   execute(message) {
-    if (message.content === `${prefix}ping`) {
-      message.react('⚡');
-      reply(message, 'Pong! 📈 Heartbeat: 50ms');
-    }
+    reply(message, 'Pong! 📈 Heartbeat: 50ms');
   }
-};
+});
