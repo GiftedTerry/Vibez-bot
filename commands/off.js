@@ -7,7 +7,7 @@ registerCommand(
   {
     name: 'off',
     categorie: 'developer',
-    reaction: '',
+    reaction: '💻',
     description: 'Shut down the bot and all files. Only usable by the developers.',
   },
   async (message) => {
