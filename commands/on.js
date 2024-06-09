@@ -7,7 +7,7 @@ registerCommand(
   {
     name: 'on',
     categorie: 'developer',
-    reaction: '',
+    reaction: '💻',
     description: 'Start the bot and all files. Only usable by the developers.',
   },
   async (message) => {
