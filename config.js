@@ -43,7 +43,7 @@ global.read_status = 'false';
 global.save_status = 'false';
 global.save_status_from = 'null,234xxxxxxxx';
 global.read_status_from = '2349122128803,234xxxxxxxx';
-global.api_smd = '(link unavailable)';
+global.api_smd = '';
 global.scan = '';
 global.SESSION_ID = '';
 
