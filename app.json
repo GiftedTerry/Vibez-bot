@@ -1,7 +1,8 @@
+
 {
   "name": "Vibez-MD",
-  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : https://wa.me/2349122128803",
-  "logo": "https://telegra.ph/file/6de70e06e3aa80c280270.jpg",
+  "description": "I am Vibez-MD a bot created by Pro tech to give Vibez 😎\n\t if Any issue : (link unavailable)",
+  "logo": "(link unavailable)",
   "keywords": ["whatsappbot", "Vibez-MD","multi device"],
   "success_url": "/",
   "app_url": "/qr/",
@@ -67,7 +68,7 @@
       "required" :true
     },
     "WAPRESENCE": {
-      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording'(for recording) | 'paused' ",
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
       "value": "unavailable"
     },
@@ -104,56 +105,9 @@
       "value": ""
     },
     "OPENAI_API_KEY": {
-      "description": "put your OPENAI api key here.Get it from https://beta.openai.com ",
+      "description": "put your OPENAI api key here.Get it from (link unavailable) ",
       "value": "",
       "required" :false
     },
-     "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
-      "value": "",
-      "required" :false
-    },
-    "REMOVE_BG_KEY": {
-      "description": "put your REMOVE BG KEY here.Get it from https://removeBg.com ",
-      "value": "",
-      "required" :false
-    },
-    "MODE": {
-      "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private",
-      "required": "true"
-    },
-    "PACK_NAME": {
-      "description": "Put Sticker Pack_Name.",
-      "value": "Vibez-MD",
-      "required": false
-    },
-    "PACK_AUTHER": {
-      "description": "Put Sticker Author_Name.",
-      "value": "PRO TECH",
-      "required": false
-    },
-    "STACK": {
-      "description": "STACK NAME ",
-      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
-      "required": false
-    },
-    "SUDO": {
-      "description": "The phone numbers of the users who you want to be supersudo for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2349122128803"
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:basic"
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
-    },
-    {
-      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
-    }
-  ]
-}
+    "ELEVENLAB_API_KEY": {
+      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from (link unavailable)
