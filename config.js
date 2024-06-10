@@ -1,3 +1,4 @@
+
 const fs = require('fs-extra');
 const dotenv = require('dotenv');
 
@@ -18,10 +19,10 @@ global.allowJids = process.env.ALLOW_JID || 'null';
 global.blockJids = process.env.BLOCK_JID || 'null';
 global.DATABASE_URL = process.env.DATABASE_URL || '';
 global.timezone = process.env.TZ || process.env.TIME_ZONE || 'Africa/Lagos';
-global.github = '(link unavailable)';
+global.github = 'https://github.com/GiftedTerry/Vibez-MD';
 global.gurl = 'https://whatsapp.com/channel/0029VaR2hFSFXUuYmxbRy83Q';
 global.website = 'https://whatsapp.com/channel/0029VaR2hFSFXUuYmxbRy83Q';
-global.THUMB_IMAGE = '(link unavailable)';
+global.THUMB_IMAGE = 'https://telegra.ph/file/d72deaffcab4cb15c6921.jpg';
 global.caption = 'Vibez-MD';
 global.devs = '2349122128803';
 global.sudo = '2349122128803';
