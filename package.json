@@ -76,5 +76,5 @@
   },
   "homepage": "https://github.com/GiftedTerry/Vibez-MD",
   "engines": {
-    "node": "20.x"
+    "node": "16.x"
   }
