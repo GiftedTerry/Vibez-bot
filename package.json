@@ -2,12 +2,12 @@
    "name": "vibez-md",
    "version": "1.0.0",
    "description": "Multi device whatsapp bot by Pro Tech.",
-   "main": "lib/smd.js",
+   "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name index || node lib/smd.js",
-            "start": "pm2 start lib/smd.js --attach --name index",
-            "stop": "pm2 stop Ibrahim"
+            "run": "pm2 start vibez --deep-monitoring --attach --name vibez || node",
+            "start": "pm2 start vibez --attach --name vibez",
+            "stop": "pm2 stop vibez"
    },
    "author": "Pro tech",
    "license" :"Apache-2.0",
