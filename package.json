@@ -5,9 +5,9 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start vibez --deep-monitoring --attach --name vibez || node",
-            "start": "pm2 start vibez --attach --name vibez",
-            "stop": "pm2 stop vibez"
+            "run": "pm2 start index.js --deep-monitoring --attach --name index.js || node",
+            "start": "pm2 start index.js --attach --name index.js",
+            "stop": "pm2 stop index.js"
    },
    "author": "Pro tech",
    "license" :"Apache-2.0",
